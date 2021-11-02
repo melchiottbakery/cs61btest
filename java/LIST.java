@@ -1,0 +1,26 @@
+
+
+public class LIST {
+
+    public int first;
+    public LIST second;
+    public LIST rest;
+
+
+
+    public  static void main(String[] args) {
+
+        LIST L = new LIST();
+        L.first =5 ;
+        L.rest = null;
+        L.rest = new LIST();
+        L.rest.first=10;
+
+       // LIST L = new LIST(5, null);
+       // L.rest = new LIST(10, null);
+       // L.rest.rest = new LIST(15, null);
+    }
+
+
+}
+
